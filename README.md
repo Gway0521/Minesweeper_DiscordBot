@@ -1,1 +1,2 @@
-# minesweeper_DC
+# Discord 踩地雷
+
