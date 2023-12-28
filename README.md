@@ -7,6 +7,7 @@
 - 先創建一個 Discord Bot，並取得它的 TOKEN，放在 bot.py 的程式碼中。
 > TOKEN = '這裡輸入 Discord 的 TOKEN'
 - 運行 main.py 啟動 bot。
+- 用 Invite Link 把 bot 邀請進某一個群組裡，輸入指令開始遊戲。
 
 ## Bot 指令
 -  啟動踩地雷
