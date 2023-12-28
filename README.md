@@ -9,8 +9,10 @@
 - 運行 main.py 啟動 bot。
 
 ## Bot 指令
-- '!minesweeper' 啟動踩地雷
-- '!minesweeper [height] [width] [mine_numbers]' 啟動踩地雷並設定長、寬、地雷數量
+-  啟動踩地雷
+> !minesweeper
+- 啟動踩地雷並設定長、寬、地雷數量
+> !minesweeper [height] [width] [mine_numbers]
 
 - 'S [x] [y]' 踩 (x, y) 方塊，可省略 S 只打 '[x] [y]'
 - 'F [x] [y] [emoji_string]' 在 (x, y) 方塊插旗幟，可省略 [emoji_string] 使用預設旗幟
