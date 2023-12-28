@@ -22,9 +22,9 @@
 
 ## 收穫
 上一次寫 Discord Bot 已經是三年前了，這次回來幾乎等於全部重新學一遍，不過相較於過去，這次主要著重練習一些打 Code 的習慣、架構和我以前沒搞清楚過的一些程式碼。
-- async / await 非同步函數 \n
+- async / await 非同步函數  \n
 這個蠻有趣的，用在 AsyncIO、慢速 I/O，像是等待使用者的輸入或某些動作。AsyncIO 和 Threading、Multiprocessing 的使用場景不同。
-- decorator 裝飾器 \n
+- decorator 裝飾器  \n
 平常自己寫 Code 不會用到，但是一旦開始接觸其他專案 lib 就會很常遇到，本質是封裝。[這篇寫得很好](https://stackoverflow.com/questions/52689954/what-it-really-is-client-event-discord-py)，看完之後大概理解 Discord.py 的 @client.event 和其他裝飾器的運作方式。
-- Breadth-first search 廣度優先搜尋演算法 \n
+- Breadth-first search 廣度優先搜尋演算法  \n
 BFS 我的演算法老朋友，自從準備完 CPE 之後就沒再碰過，最近因為輔系資工的程設實驗又再一次來複習了。
