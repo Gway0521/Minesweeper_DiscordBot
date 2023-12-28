@@ -10,6 +10,8 @@
 - 用 Invite Link 把 bot 邀請進某一個群組裡，輸入指令開始遊戲。
 
 ## Bot 指令
+![image](https://github.com/Gway0521/minesweeper_DC/assets/112754491/8e5b5e42-d468-4d6e-ba1c-2c35d6ff5098)
+
 -  啟動踩地雷
 > !minesweeper
 - 啟動踩地雷並設定長、寬、地雷數量
