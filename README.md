@@ -13,10 +13,9 @@
 > !minesweeper
 - 啟動踩地雷並設定長、寬、地雷數量
 > !minesweeper [height] [width] [mine_numbers]
-- 踩 (x, y) 方塊
-> S [x] [y]
-可省略 S 只打
-> [x] [y]
-
-- 'F [x] [y] [emoji_string]' 在 (x, y) 方塊插旗幟，可省略 [emoji_string] 使用預設旗幟
-- 'stop' 結束踩地雷
+- 踩 (x, y) 方塊，可省略 S
+> S [x] [y] 或是 [x] [y]
+- 在 (x, y) 方塊插旗幟，可省略 [emoji_string] 使用預設旗幟
+> F [x] [y] [emoji_string] 或是 F [x] [y]
+- 結束踩地雷
+> stop
