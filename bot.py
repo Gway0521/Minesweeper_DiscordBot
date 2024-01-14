@@ -1,5 +1,4 @@
 import discord
-import responses
 import minesweeper
 from discord.ext import commands
 
