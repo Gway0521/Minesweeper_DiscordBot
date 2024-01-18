@@ -166,7 +166,7 @@ async def startGame(client, message, board_w, board_h, mine_nums):
         return CommandType.ILLEGAL_COMMAND
     
 
-    def ExecuteCommand(userInput, commandType):
+    def executeCommand(userInput, commandType):
         '''
         依據 commandType 決定執行哪種 command
 
@@ -367,7 +367,7 @@ async def startGame(client, message, board_w, board_h, mine_nums):
         if commandType == CommandType.ILLEGAL_COMMAND:
             continue
         else:
-            ExecuteCommand(user_input, commandType)
+            executeCommand(user_input, commandType)
 
         # 更新場地與刪除玩家訊息
         await showBoard(printOut = False)
